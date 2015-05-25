@@ -12,7 +12,7 @@ syntax on
 filetype on
 
 "Colors and Fonts - SWAG!
-colorscheme desert
+colorscheme solarized
 set background=dark
 if has("gui_running")
 	if has("gui_win32")
