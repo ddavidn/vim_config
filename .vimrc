@@ -38,3 +38,6 @@ set tabstop=4
 set ai "Auto indent
 set si "Smart indent
 set wrap "Wrap lines
+
+" Map w!! to sudo save file
+cmap w!! w !sudo tee > /dev/null %
